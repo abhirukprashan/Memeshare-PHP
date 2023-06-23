@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Image File</title>
+  </head>
+  <body>
+    <form class="form" action="upload.php" method="post" autocomplete="off" enctype="multipart/form-data">
+      <label for="name">Name : </label>
+      <input type="text" name="name" id = "name" required value=""> <br>
+      <label for="image">Image : </label>
+      <input type="file" name="image" id = "image" accept=".jpg, .jpeg, .png" value=""> <br> <br>
+      <button type = "submit" name = "submit">Submit</button>
+    </form>
+    <br>
+    <a href="gallery.php">home</a>
+  </body>
+</html>
